@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="./product_landing.css" />
+  <title>FCC: Product Landing Page</title>
+</head>
+
+<body>
+  <!-- Header : logo and navigation -->
+  <div id="page-wrapper">
+    <header id="header" class="header">
+      <div class="logo">
+        <img id="header-img"
+          src="https://raw.githubusercontent.com/mwptje/fcc-product-landing-site/master/inventive_logo.png"
+          alt="Logo Here" />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#media" class="nav-link">Media</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container"></div>
+    <!-- Sign up section  -->
+    <section id="hero">
+      <h2>Transforming ideas into products</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" id="email" name="email" placeholder="Enter an email address to subscribe" />
+        <input type="submit" id="submit" class="btn" value="Subscribe" />
+      </form>
+    </section>
+    <div class="container">
+      <!-- 3 features -->
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="far fa-3x fa-lightbulb"></i></div>
+          <div class="desc">
+            <h2>Idea</h2>
+            <p>In a creative process together with our clients, we take ideas down the road of realisation using well
+              proven methods</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fas fa-3x fa-magic"></i></div>
+          <div class="desc">
+            <h2>Transform</h2>
+            <p>We transform ideas into products using our longstanding experience and professional eye.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fas fa-3x fa-industry"></i></div>
+          <div class="desc">
+            <h2>Product</h2>
+            <p>The end result is a product that is fully detailed, tested and ready to be produced</p>
+          </div>
+        </div>
+      </section>
+      <!-- Video with an example -->
+      <section id="media">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2QLVk9iPp_0" frameborder="0"
+          allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+      </section>
+      <!-- 3 column section with pricing options -->
+      <section id="pricing">
+        <div class="product product-back" id="entry-level">
+          <div class="level">Entry Level</div>
+          <h2>$ 500</h2>
+          <ol>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipisicing eli</li>
+            <li>Dolorem porro quidem</li>
+          </ol>
+        </div>
+        <div class="product product-back" id="startup-level">
+          <div class="level">Startup Level</div>
+          <h2>$ 1000</h2>
+          <ol>
+            <li>Nesciunt dolorum</li>
+            <li>Ipsum eligendi doloribus</li>
+            <li>Saepe unde laboriosam</li>
+          </ol>
+        </div>
+        <div class="product product-back" id="excellent-level">
+          <div class="level">Par Excellence</div>
+          <h2>$ 3600</h2>
+          <ol>
+            <li>Magni distinctio unde</li>
+            <li>Vitae reiciendis</li>
+            <li>Placeat fugiat non</li>
+          </ol>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <section class="section-right">
+          <p>
+            Inventive company<br>
+            Some address 100<br>
+            Some state<br>
+            Some Country
+          </p>
+        </section>
+        <section class="section-left">
+          Copyright &copy; 2020
+        </section>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
